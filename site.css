@@ -1,0 +1,12 @@
+:root { --ink: #33294D; --soft: #736B8C; --gold: #F2A83D; --paper: #FCF8EB; --night: #2B1F52; --dusk: #5A3FA0; --link: #3F6FD8; }
+* { box-sizing: border-box; }
+body { margin: 0; font: 400 18px/1.6 ui-rounded, 'SF Pro Rounded', system-ui, -apple-system, 'Segoe UI', sans-serif; color: var(--ink); background: linear-gradient(180deg, var(--dusk), var(--night)) fixed; background-color: var(--night); }
+main { max-width: 720px; margin: 32px auto; padding: 28px 24px 40px; background: var(--paper); border-radius: 28px; box-shadow: 0 10px 30px rgba(20, 12, 40, .35); }
+@media (max-width: 760px) { main { margin: 16px; } }
+h1 { font: 900 40px/1.1 ui-rounded, 'SF Pro Rounded', system-ui, sans-serif; margin: 0 0 6px; }
+h2 { font: 900 26px/1.2 ui-rounded, 'SF Pro Rounded', system-ui, sans-serif; color: var(--gold); margin: 28px 0 6px; }
+h3 { font-weight: 900; font-size: 19px; margin: 18px 0 2px; }
+.meta { color: var(--soft); margin: 0 0 18px; }
+.lead { font-weight: 700; font-size: 20px; }
+.shot { display: block; width: 100%; max-width: 300px; margin: 20px auto; border-radius: 22px; box-shadow: 0 6px 20px rgba(20, 12, 40, .25); }
+a { color: var(--link); }
